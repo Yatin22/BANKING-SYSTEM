@@ -2,13 +2,146 @@
 <html>
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
-<title><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.creativefabrica.com%2Fproduct%2Fmonogram-yo-logo-design%2F&psig=AOvVaw0kVO0059NmXmZnR1JK5476&ust=1619372986251000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNji68-4l_ACFQAAAAAdAAAAABAD">Banking System</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Banking System</title>
 </head>
-<body>
+<style>
+ /* Style the header */
+header {
+  background-color: #05386b;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  width: 1347px;
+  font-family:Aleo;
+  width:100%;
+ 
+}
+body{
+    background-color:#379683;
+    
+   /* color #379683 #5cdb95  */ }
+.dark-mode {
+  
+  background-color: black;
+}
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+.div {
+  
+  font-family:Aleo;
+
+}
+nav {
+  width: 30%;
+  background: #ccc;
+  font-family: aleo;
+}
+.div1 {
+    font-size: 20PX;
+    font-style: Aleo;
+    color: rgb(255, 250, 250);
+
+}
+/* Style the footer */
+footer {
+  background-color: #05386b;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  width: 1347px;
+  float: bottom;
+  position:absolute;
+   bottom:0;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Aleo;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #5cdb95;
+  color: white;
+}
+.div2{
+    font-family: Aleo;
+}
+
+
+</style>
+<body>
+    <header>
+        <h2>Y-O BANKING SYSTEM</h2>
+    </header>
+    
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+
+
+<div class="div">
+<h2><u><b><marquee>Welcome to the Y-O Bank</b></marquee></u> </h2>
+</div>
+<div class="div1">
+    <p><b><em>From here you can withdraw , Deposite money and also check you balence in one click with the help of your<br> first name ,last name and  pin:</em></b></p>
+    
+</div>
+
+<div class="div2">
+<h2>Please enter the pin:</h2>
+</div>
+
+<form action="/action_page.php">
+    <label for="fname">First name:&nbsp;</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:&nbsp;</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="lname">Pin or Pass:</label>
+    <input type="integer" id="frame" name="Pin"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+    
+    
+    <footer color- #f4f4f2>
+    
+    <button onclick="myFunction()" type="button" class="btn btn-dark" style="float:left;font-size: 10px;text-align: left">Dark Mode</button>
+    
+      <p>This Website is made and designed by yatin and onkar as Y-O BANKING SYSTEM</p>
+    </footer>
+
 
 </body>
 </html>
